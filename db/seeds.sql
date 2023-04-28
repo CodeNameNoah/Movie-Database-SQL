@@ -5,11 +5,14 @@ VALUES ('The Menu'),
        ('Gettysburg'),
        ('LaLa Land');
 
-INSERT INTO  (book_name, in_stock, book_price)
-VALUES ("The Great Gatsby", true, 1),
-       ("Huckleberry Finn", true, 3),
-       ("100 Years of Solitude", false, 5),
-       ("Things Fall Apart", false, 1),
-       ("Crime and Punishment", true, 2),
-       ("Moby Dick", true, 4),
-       ("Decameron", false, 1);
+INSERT INTO reviews (movie_id, review)
+VALUES ('1', '2.5 STARS'),
+       ('2', '1 STARS'),
+       ('3', '4 STARS'),
+       ('4', '1 STARS'),
+       ('5', '5 STARS'),
+       ('3', '2 STARS'),
+       ('2', '5 STARS'),
+       ('3', '4 STARS'),
+       ('1', '3 STARS'),
+       ('3', '2 STARS');
