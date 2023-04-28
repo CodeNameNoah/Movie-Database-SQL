@@ -18,7 +18,15 @@ const db = mysql.createConnection(
   },
   console.log(`Connected to the movies_db database.`)
 );
-// ! Start Here - NH
+
+// ! RESUME HERE - NH
+app.post('/api/add-movie', (req, res) => {
+    db.query(INSERT INTO movies (movie_name))
+})
+
+
+
+
 
 db.query(
   "SELECT COUNT(id) AS total_count FROM favorite_books GROUP BY in_stock",
